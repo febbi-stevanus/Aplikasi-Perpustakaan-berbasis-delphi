@@ -39,7 +39,7 @@ CREATE TABLE `anggota` (
 --
 
 INSERT INTO `anggota` (`NIM`, `Nama_Mahasiswa`, `Kelas`, `Jurusan`) VALUES
-('2110020078', 'Ahmad Rosyad', '2A Reg Pagi ', 'Sistem Informasi');
+('2018804142', 'Febby Sugianto', ' Reg Pagi ', 'Sistem Informasi');
 
 -- --------------------------------------------------------
 
@@ -58,9 +58,9 @@ CREATE TABLE `buku` (
 --
 
 INSERT INTO `buku` (`Kode_Buku`, `Judul_Buku`, `Penerbit`) VALUES
-('A1', 'Delphi7', 'Ahmad'),
-('A2', 'SIM', 'Amad'),
-('A3', 'SBD', 'Agus');
+('A1', 'Delphi7', 'Febby'),
+('A2', 'SIM', 'Febby'),
+('A3', 'SBD', 'Febby');
 
 -- --------------------------------------------------------
 
@@ -87,7 +87,7 @@ CREATE TABLE `perpus` (
 --
 
 INSERT INTO `perpus` (`NIM`, `Nama_Mahasiswa`, `Kelas`, `Jurusan`, `Kode_Buku`, `Judul_Buku`, `Penerbit`, `Tgl_Pinjam`, `Tgl_Kembali`, `Lewat_Hari`, `Denda`) VALUES
-('2110020078', 'Ahmad Rosyad', '2A Reg ', 'Sistem Informasi', 'A1', 'Delphi7', 'Ahmad', '2022-07-06', '06/07/2022', '-1', 'Tidak Ada Denda');
+('2110020078', 'febby ', '2A Reg ', 'Sistem Informasi', 'A1', 'Delphi7', 'Ahmad', '2022-07-06', '06/07/2022', '-1', 'Tidak Ada Denda');
 
 -- --------------------------------------------------------
 
